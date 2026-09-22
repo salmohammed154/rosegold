@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    border: 2px solid black;
+    width: 350px;
+    background: #fff;
+    margin: 90px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tab {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.tab a {
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    background: #f0f0f0;
+    color: #333;
+}
+
+.tab a.active{
+    background: #8C5A63;;
+    color: #fff;
+}
+ .tab a.active button{
+    background: #8C5A63;
+    color: #fff;
+    border: none;
+ }
+ .tab #signupBtn button{
+    border: none;
+ }
+.field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.field input {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.field input:focus {
+    outline: 2px solid #8C5A63;;
+    outline-offset: 1px;
+}
+
+.login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #8C5A63;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+.login-button:hover {
+    background: black;
+}
+
+.signup-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.signup-text a {
+    color: #8C5A63;
+}
